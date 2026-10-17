@@ -39,7 +39,7 @@
             </div>
             <h1>DayPage</h1>
             <p class="subtitle">Privacy Policy</p>
-            <p class="last-updated">Last updated: March 24, 2026</p>
+            <p class="last-updated">Last updated: October 17, 2026</p>
         </header>
 
         <div class="card">
@@ -47,9 +47,9 @@
                 <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
                 Your Privacy Matters
             </h2>
-            <p>DayPage was built with your privacy at its core. We believe your personal journaling is deeply private, and we designed our app to respect that. DayPage is a local-first app -- your journal entries, moods, and reflections stay on your device by default.</p>
+            <p>DayPage was built with your privacy at its core. Your journal is yours: your entries, moods and notes are stored on your device, and nothing in DayPage is used for advertising or tracking.</p>
             <div class="highlight">
-                <p>DayPage stores all data locally on your device by default. Optional iCloud Sync and Duo Mode features are fully opt-in and under your control.</p>
+                <p>Three things can leave your device, each explained below: the texts our AI provider writes for you (you can turn them off in Settings), the optional iCloud backup to your own account, and what you choose to share in the optional Duo Mode.</p>
             </div>
         </div>
 
@@ -60,12 +60,14 @@
             </h2>
             <p>DayPage stores the following information <strong>on your device</strong> using Apple's secure storage:</p>
             <ul>
-                <li><strong>Journal Entries:</strong> Morning check-ins, evening reflections, and weekly reviews</li>
+                <li><strong>Journal Entries:</strong> Morning check-ins, evening reflections, journeys and weekly reviews</li>
+                <li><strong>Photos:</strong> Pictures you keep with a day (they never leave your device)</li>
+                <li><strong>Voice:</strong> Spoken entries are turned into text on your device; no recording is kept or sent</li>
                 <li><strong>Quick Notes:</strong> Short notes you capture throughout the day</li>
-                <li><strong>Mood Data:</strong> Your mood tracking selections and history</li>
+                <li><strong>Mood Data:</strong> Your mood tracking selections and history, including moods logged from the widget</li>
                 <li><strong>Streaks:</strong> Your journaling streak counts and dates</li>
                 <li><strong>Custom Prompts:</strong> Personalized prompts you create</li>
-                <li><strong>App Settings:</strong> Your preferences for themes, dark mode, notifications, and widgets</li>
+                <li><strong>App Settings:</strong> Your preferences for themes, appearance, language, notifications, the Face ID lock and widgets</li>
             </ul>
         </div>
 
@@ -76,38 +78,32 @@
             </h2>
             <p>DayPage offers optional iCloud synchronization to keep your journal entries synced across your Apple devices. When enabled:</p>
             <ul>
-                <li>Your data is stored in your personal iCloud account</li>
-                <li>Syncing uses Apple's end-to-end encrypted iCloud infrastructure</li>
+                <li>Your entries are stored in your own private iCloud account</li>
+                <li>Apple encrypts them in transit and on its servers (this is standard iCloud protection, not end-to-end encryption)</li>
                 <li>We never have access to your iCloud data</li>
                 <li>You can enable or disable cloud sync at any time in Settings</li>
             </ul>
             <div class="highlight">
-                <p>iCloud Sync is entirely optional. You can use DayPage fully offline with all data stored only on your device.</p>
+                <p>iCloud Sync is off unless you turn it on. You can use DayPage with all data stored only on your device.</p>
             </div>
         </div>
 
         <div class="card">
             <h2>
                 <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
-                Third-Party Services
+                AI Reflections and Monthly Letter
             </h2>
-            <p>DayPage uses third-party large language model providers to power certain premium features, such as personalized reflections, mood narratives, and monthly summaries. These services are provided by:</p>
+            <p>For Premium subscribers, DayPage can write three things for you with the help of an AI provider, <strong>Google (Gemini)</strong>. Every request goes through our own server, which forwards it and keeps no copy (it records only whether a request succeeded). These texts are on by default, and <strong>you can turn them off in Settings</strong> (&ldquo;AI reflections and monthly letter&rdquo;): when they are off, nothing is sent.</p>
             <ul>
-                <li>Google (Gemini)</li>
-                <li>OpenAI</li>
-                <li>xAI (Grok)</li>
-            </ul>
-            <p>When these features are used, <strong>only aggregated, anonymized data</strong> is sent to these providers. This includes:</p>
-            <ul>
-                <li>Your selected mood (e.g., "good" or "okay")</li>
-                <li>Entry type (morning, evening, or weekly)</li>
-                <li>Aggregated statistics (total entries, streak length, mood distribution)</li>
-                <li>Your prompt responses (to generate personalized reflections)</li>
+                <li><strong>A reflection after each entry:</strong> when you complete an entry, its questions and your answers, its mood and its type (morning, evening, journey) are sent to write a short reflection.</li>
+                <li><strong>A monthly letter:</strong> once a month, each week's main mood and number of entries, your total entries and words, the ten words you used most that month, and your streaks.</li>
+                <li><strong>A monthly story in Insights:</strong> counts only (how many entries of each mood, totals, your streak and completion rate); no words.</li>
             </ul>
             <div class="highlight">
-                <p>No personally identifiable information (name, email, Apple ID, or device ID) is ever sent to these services. All requests are routed through our secure server and are not used to train any third-party models.</p>
+                <p>Your name, email address, Apple ID and device identifiers are never sent. Photos and voice are never sent.</p>
             </div>
-            <p>These features are entirely optional and only available to premium subscribers. Free users are never affected by third-party data processing.</p>
+            <p>Google processes these requests under its terms for the paid Gemini API: it does not use them to improve its products, and it logs them for a limited period only to detect abuse and to meet legal requirements.</p>
+            <p>These texts are a Premium feature. People on the free plan never have anything sent.</p>
         </div>
 
         <div class="card">
@@ -115,14 +111,14 @@
                 <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
                 Duo Mode (Optional)
             </h2>
-            <p>DayPage includes an optional Duo Mode that lets you journal together with a partner. When you opt into Duo Mode:</p>
+            <p>DayPage includes an optional Duo Mode that lets you journal alongside someone you trust. Your journal entries are <strong>never</strong> shared. When you connect with a partner:</p>
             <ul>
-                <li>You choose which entries to share with your connected partner</li>
-                <li>Shared entries are transmitted securely between paired accounts</li>
-                <li>You can disconnect from Duo Mode at any time</li>
-                <li>Remote notifications are used to alert your partner of shared updates</li>
+                <li>Only what you choose to send is shared: notes you share, encouragements, shared goals, and the invitation itself</li>
+                <li>These are stored on Apple's servers in DayPage's iCloud (CloudKit) database for Duo, not in your private iCloud, so that your partner's device can receive them</li>
+                <li>You can stop sharing a note at any time, which removes it from that database; disconnecting from Duo Mode removes the encouragements you sent and received (notes and goals you shared stay until you stop sharing them)</li>
+                <li>Remote notifications tell your partner when you send them an encouragement</li>
             </ul>
-            <p>Duo Mode is entirely opt-in. You must explicitly connect with a partner and choose what to share.</p>
+            <p>Duo Mode is entirely opt-in: nothing is shared until you connect with a partner and choose what to send.</p>
         </div>
 
         <div class="card">
@@ -134,7 +130,7 @@
             <ul>
                 <li>Morning and evening journaling reminders (local, optional)</li>
                 <li>Streak milestone celebrations (local)</li>
-                <li>Duo Mode partner updates (remote, only when Duo Mode is active)</li>
+                <li>Encouragements from your Duo partner (remote, only when Duo Mode is active)</li>
             </ul>
             <p>You can customize or disable all notifications in Settings or in your device's notification preferences.</p>
         </div>
@@ -170,9 +166,11 @@
             </h2>
             <p>You have full control over your data:</p>
             <ul>
+                <li><strong>AI texts:</strong> Turn reflections and the monthly letter on or off at any time</li>
                 <li><strong>Cloud Sync Toggle:</strong> Enable or disable iCloud sync at any time</li>
+                <li><strong>Face ID Lock:</strong> Lock your journal with Face ID or your passcode</li>
                 <li><strong>Duo Mode:</strong> Choose exactly what you share with your partner</li>
-                <li><strong>PDF Export:</strong> Export your entries as PDF files locally on your device</li>
+                <li><strong>PDF Export:</strong> Export your entries as PDF files, made on your device</li>
                 <li><strong>Notifications:</strong> Customize which notifications you receive</li>
                 <li><strong>Delete:</strong> Remove individual entries or all data at any time</li>
                 <li><strong>Full Removal:</strong> Uninstalling the app removes all locally stored data</li>
@@ -181,10 +179,24 @@
 
         <div class="card">
             <h2>
+                <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+                Your Rights (EU and UK)
+            </h2>
+            <ul>
+                <li><strong>Who is responsible:</strong> the developer of DayPage, whom you can reach through the Contact page.</li>
+                <li><strong>Why your data is used:</strong> only to provide the features you use. The AI texts can be turned off at any time in Settings.</li>
+                <li><strong>Where it goes:</strong> requests for the AI texts are processed by Google, including in the United States, under Google's terms. iCloud and Duo data are kept by Apple.</li>
+                <li><strong>How long it is kept:</strong> our server keeps nothing; Google keeps requests only for the limited period described above; Duo items stay until you stop sharing them or ask us to delete them; everything on your device stays until you delete it.</li>
+                <li><strong>Your rights:</strong> you can ask to see, correct or delete your data, and to object to its use. Because your journal stays on your device or in your own iCloud, you control it directly; for anything shared through Duo, write to us through the Contact page. You can also complain to your data protection authority.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>
                 <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
                 Children's Privacy
             </h2>
-            <p>DayPage is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13. Since data is stored locally on the device by default and is not transmitted to us, we have no way to identify or collect information from any users, including children.</p>
+            <p>DayPage is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13, and we have no account system that could identify any user.</p>
         </div>
 
         <div class="card">
@@ -206,12 +218,22 @@
 
         <nav class="nav-links">
             <a href="privacy.html">Privacy Policy</a>
-            <a href="contact.html">Contact Us</a>
-            <a href="privacy-fr.html">Fran&ccedil;ais</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">English</a>
             <a href="privacy-de.html">Deutsch</a>
-            <a href="privacy-es.html">Espa&ntilde;ol</a>
+            <a href="privacy-es.html">Español</a>
+            <a href="privacy-fr.html">Français</a>
             <a href="privacy-it.html">Italiano</a>
-            <a href="privacy-pt.html">Portugu&ecirc;s</a>
+            <a href="privacy-pt.html">Português</a>
+            <a href="privacy-pt-br.html">Português (Brasil)</a>
+            <a href="privacy-nl.html">Nederlands</a>
+            <a href="privacy-pl.html">Polski</a>
+            <a href="privacy-sv.html">Svenska</a>
+            <a href="privacy-ja.html">日本語</a>
+            <a href="privacy-ko.html">한국어</a>
+            <a href="privacy-zh-hans.html">简体中文</a>
+            <a href="privacy-th.html">ไทย</a>
+            <a href="privacy-uk.html">Українська</a>
         </nav>
 
         <footer>
